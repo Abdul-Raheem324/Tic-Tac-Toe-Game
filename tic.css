@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #E2DAD6;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+    font-style: italic;
+}
+.container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 4px;
+    row-gap: 4px;
+    border: 1px solid #b1aba8;
+}
+.boxes button{
+    width: 18vmin;
+    height: 18vmin;
+    font-size: 44px;
+    
+}
+.boxes button:hover{
+    cursor: pointer;
+    color: darkgray;
+}
+.boxes button:active{
+    background-color: lightgray;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.win{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.btn button{
+    display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff5252;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.btn button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+  }
+  
+  .btn button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+.win span{
+    font-weight: bold;
+    font-size: larger;
+}
